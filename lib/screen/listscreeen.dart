@@ -35,7 +35,7 @@ class StudentList extends StatelessWidget {
                 )),
                 title: Text(student.name),
                 subtitle: Text(
-                  "Class: ${student.classname}, \nMobile: +91 - ${student.pnumber}",
+                  "Class: ${student.classname} \nMobile: +91 - ${student.pnumber}",
                 ),
                 trailing: Row(
                   mainAxisSize: MainAxisSize.min,
